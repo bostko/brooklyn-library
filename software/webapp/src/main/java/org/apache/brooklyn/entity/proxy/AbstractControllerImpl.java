@@ -287,7 +287,7 @@ public abstract class AbstractControllerImpl extends SoftwareProcessImpl impleme
     }
 
     protected String inferUrl() {
-        return inferUrl(false);
+        return inferUrl(true);
     }
 
     @Override
